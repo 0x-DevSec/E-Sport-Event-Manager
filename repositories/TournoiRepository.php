@@ -20,7 +20,6 @@ class TournoiRepository
             $tournoi->getTitre(),
             $tournoi->getCashprize(),
             $tournoi->getFormat(),
-            $tournoi->getDate()->format('Y-m-d')
         );
         $stmt->execute();
     }
